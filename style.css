@@ -55,3 +55,8 @@ h1 {
   padding: 6px 10px;
   cursor: pointer;
 }
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
