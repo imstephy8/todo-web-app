@@ -40,3 +40,10 @@ h1 {
   list-style: none;
   padding: 0;
 }
+
+#todo-list li {
+  background: #eeeeee;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
