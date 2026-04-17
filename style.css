@@ -46,4 +46,12 @@ h1 {
   padding: 12px;
   border-radius: 8px;
   margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#todo-list button {
+  padding: 6px 10px;
+  cursor: pointer;
 }
