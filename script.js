@@ -1,5 +1,6 @@
 const input = document.getElementById("todo-input");
 const addButton = document.getElementById("add-btn");
+const clearButton = document.getElementById("clear-btn");
 const todoList = document.getElementById("todo-list");
 
 function saveTasks() {
