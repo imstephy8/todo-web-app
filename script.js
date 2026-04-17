@@ -10,7 +10,13 @@ addButton.addEventListener("click", function () {
   }
 
   const li = document.createElement("li");
-  li.textContent = taskText;
+
+  const span = document.createElement("span");
+  span.textContent = taskText;
+
+  span.addEventListener("click", function () {
+    span.classList.toggle("completed");
+  });
 
   const deleteButton = document.createElement("button");
   deleteButton.textContent = "Delete";
@@ -19,6 +25,7 @@ addButton.addEventListener("click", function () {
     li.remove();
   });
 
+  li.appendChild(span);
   li.appendChild(deleteButton);
   todoList.appendChild(li);
   input.value = "";
