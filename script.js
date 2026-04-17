@@ -72,4 +72,5 @@ savedTasks.forEach(function (task) {
 
 clearButton.addEventListener("click", function () {
   todoList.innerHTML = "";
+  localStorage.removeItem("tasks");
 });
